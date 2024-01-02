@@ -1,0 +1,41 @@
+.body {
+  align-items: center;
+  /* background-image: url("https://static.wikia.nocookie.net/board-games-galore/images/4/47/Tictactoe-winning-vector-639732.jpg/revision/latest?cb=20160711013756");  */
+  
+}
+
+h1 {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, cursive;
+}
+
+#board {
+  margin: auto;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  background-color: black;
+  font-size: 80px;
+  color: red;
+  width: 100px;
+  height: 100px;
+  border: 2px solid white;
+  text-align: center;
+}
+
+#rstBtn {
+  background-color: black;
+  color: white;
+  width: 80px;
+  height: 30px;
+}
+
+.winner {
+  font-family: "Bangers", cursive;
+  font-size: 30px;
+  color: red;
+}
