@@ -1,5 +1,6 @@
 # weekend-game
 
+try the game : [play](https://sameergupta914.github.io/weekend-game/)
 
 ## Objective
 
