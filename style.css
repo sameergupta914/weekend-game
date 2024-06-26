@@ -4,13 +4,18 @@
   
 }
 
+
 h1 {
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, cursive;
+  color: rgb(58, 57, 106);
+  margin-left: 625px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #board {
-  margin: auto;
+  margin-left: 600px;
+  margin-top: 60px;
   text-align: center;
+ 
 }
 
 .row {
@@ -18,24 +23,30 @@ h1 {
 }
 
 .cell {
-  background-color: black;
+  background-color: rgb(58, 57, 106);
   font-size: 80px;
-  color: red;
+  color: rgb(145, 138, 169);
   width: 100px;
   height: 100px;
   border: 2px solid white;
   text-align: center;
+  
 }
 
 #rstBtn {
-  background-color: black;
+  margin-left: 600px;
+  margin-top: 60px;
+  background-color: rgb(58, 57, 106);
   color: white;
   width: 80px;
   height: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .winner {
-  font-family: "Bangers", cursive;
+  margin-left: 600px;
+  margin-top: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 30px;
-  color: red;
+  color: rgb(66, 54, 108);
 }
